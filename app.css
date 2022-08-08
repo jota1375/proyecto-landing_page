@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&family=Montserrat:ital,wght@0,300;0,700;1,400&family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    list-style: none;
+    text-decoration: none;
+}   
+:root{
+    --white:#fff;
+    --dark:#1e1c2a;
+    --nav_footer: #324545;
+    --bg: #d4fefe;
+    --tx: #324545;
+}
+
+body{
+    color: var(--nav_footer);
+    background: var(--bg);
+    
+}
+
+.texto-suscripcion {
+    color: #1cd6c7 !important;
+  }
+  #header img {
+    width: 60px;
+  }
+
+  #home{
+    margin-top: 80px;
+  }
+
+ 
+  #main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+  .p-info{
+    font-size: 1rem;
+  }
+  .span-info{
+    font-weight: bold;
+    color: #1cd6c7;
+  }
+  .card{
+    margin-top: 10px;
+  }
+  
+  .card-text{
+    font-size: 14px;
+  }
+
+  .card-title a{
+    text-decoration: none;
+    color: var(--nav_footer)
+  }
+  .card-title a:hover{
+    color: rgb(9, 112, 112);
+  }
+  .botones{
+    text-align: center;
+  }
+
+  #galeria img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  #galeria .col-lg-4{
+    padding: 15px;
+    margin: 0;
+  }
+  #galeria img:hover{
+    border: 3px #324545 solid;
+  }
+
+
+
